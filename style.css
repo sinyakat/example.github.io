@@ -1,0 +1,241 @@
+@mixin fflex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    
+    background-color: rgba(227, 227, 227, 1);
+}
+
+.container {
+    height: 72px;
+    width: 85%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    @include fflex;
+    position: relative;
+    flex: 1 1 400px;
+}
+
+.name-header {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.phone {
+    position: absolute;
+    right: 0;
+}
+
+.description {
+    font-family: 'Courier', monospace;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 10px;
+    
+}
+
+.border {
+    border-right: 1px solid #000;
+}
+
+.name {
+    font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
+    font-size: 50px;
+    font-style: italic;
+    margin-right: 20px;
+}
+
+.main-block {
+    height: 75vh;
+    width: inherit;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(250,250,250,.3)), url(main.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.content {
+       width: 700px;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.text-h1 {
+    font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
+    font-size: 40px;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.text-h2 {
+    font-family: 'Courier', monospace;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-name {
+    font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
+    font-style: italic;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    margin: 10px;
+}
+
+.form-input {
+    outline: none;
+    font-family: 'Courier', monospace;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.form-button {
+    font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(74, 13, 50, .7);
+}
+
+
+
+
+
+
+.how {
+    background-color: rgba(227, 227, 227, 1);
+    width: inherit;
+    padding: 20px 0;
+}
+
+.how-text-main {
+    font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.how-wrap {
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: relative;
+    justify-content: space-around;
+}
+
+.how-block {
+    text-align: center;
+    width: 300px;
+}
+
+.how-text {
+    font-family: 'Courier', monospace;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.photos {
+    background-color: rgba(179, 179, 179, 1);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: relative;
+    justify-content: center;
+}
+
+.img {
+    width: 300px;
+    padding: 10px;
+}
+
+
+.footer {
+    height: 20vh;
+    background-color: #000;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us {
+    margin-left: 40px;
+    /*position: absolute;
+    left: 0;*/
+    width: 200px;
+    font-family: 'Courier', monospace;
+    font-size: 20px;
+    color: #fff;
+}
+
+.network {
+    margin-right: 40px;
+    width: 200px;
+}
+
+.icon {
+    display: inline-block;
+    width: 40px;
+}
+
+.network-text {
+    font-family: 'Courier', monospace;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
